@@ -1,0 +1,7 @@
+.row {
+background: #333333;
+padding: 20px;
+
+col-xs-12 col-md-8 .text p {
+color: yellow;
+}

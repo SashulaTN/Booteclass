@@ -1,0 +1,67 @@
+
+/* Navigation */
+a.navbar-brand.logocolor {
+	color: #28a998;
+}
+
+
+/* Jumbothron */
+.jumbotron {
+	background: #FFFFFF url(../images/backimage.jpg) no-repeat top center;
+	height: 400px;
+}
+
+.container-fluid {
+	margin-top: -45px;
+}
+
+h1.my-jumbotron {
+	color: #ffffff;
+	position: relative;
+}
+
+h1.my-jumbotron span {
+	color: #1caa99;	
+}
+p.my-jumbotron {
+	color: #ffffff;
+	position: relative;
+}
+
+.col-md-6.alignbox {
+padding-left: 80px;
+}
+
+
+/* Jumbothron buttons */
+.btn.btn-default.removebackgr {
+	background-color: transparent;
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+.btn.btn-default.removebackgr.space {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+/* Hide Jumbothron image (hand with phone) on small devices and tablets */
+
+@media only screen and (max-width: 768px) {
+.col-md-6.phone-hide {
+display: none;
+}
+} 
+
+
+@media only screen and (max-width: 970px) {
+.col-md-6.phone-hide {
+display: none;
+}
+} 
+ 
+
+
+
