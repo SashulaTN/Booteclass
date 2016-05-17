@@ -62,6 +62,70 @@ display: none;
 }
 } 
  
+/* Thumbnails */
+
+.container.photos {
+	margin-top: 10px;
+}
 
 
+/* Gamma Features */
+.container-fluid.green {
+	background: #28aa99;
+	margin-top: -5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 
+ul.featurestext {
+color: #ffffff;
+font-size: 1.2em;
+list-style-type: none;
+}
+
+h2.featurestext {
+color: #ffffff;
+font-size: 2em;
+padding-left: 40px;
+}
+
+/* Footer */
+.container.black {
+	background: #333333;
+	padding: 15px;
+}
+
+#footerlist li {
+list-style: none;
+display: inline-block;
+padding-top: 20px;
+padding-right: 20px;
+}
+
+
+#footerlist li a {
+color: #ffffff;
+}
+
+
+#textwhite {
+color: #ffffff;
+padding-top: 20px;
+float: right;
+}
+
+.fullwidth {
+	max-width: 1700px;
+	background: #333333;
+}
+
+
+/* Align footer text - view on small devices and tablets */
+
+@media only screen and (max-width: 768px) {
+.col-sm-6 p#textwhite {
+float: left;
+padding-left: 35px;
+padding-top: 5px;
+}
+}
