@@ -90,7 +90,14 @@ padding-left: 40px;
 }
 
 /* Footer */
+
+
+#fullwidth {
+	max-width: 1700px;
+	background: #333333;
+}
 .container.black {
+	max-width: 1700px;
 	background: #333333;
 	padding: 15px;
 }
@@ -117,10 +124,7 @@ padding-top: 20px;
 float: right;
 }
 
-#fullwidth {
-	max-width: 1700px;
-	background: #333333;
-}
+
 
 
 /* Align footer text - view on small devices and tablets */
