@@ -107,6 +107,9 @@ padding-right: 20px;
 color: #ffffff;
 }
 
+ul#footerlist {
+padding-left: 0;
+}
 
 #textwhite {
 color: #ffffff;
@@ -114,7 +117,7 @@ padding-top: 20px;
 float: right;
 }
 
-.fullwidth {
+#fullwidth {
 	max-width: 1700px;
 	background: #333333;
 }
@@ -129,3 +132,25 @@ padding-left: 35px;
 padding-top: 5px;
 }
 }
+
+
+/* Contact Us */
+#fullwidth1 {
+	max-width: 1700px;
+	background: #1caa99;
+	margin-top: -22px;
+}
+
+.panel.panelcolor.pad {
+	background: #1caa99;
+	margin-bottom: 0;
+}
+
+.panel-heading {
+	color: #ffffff;
+	font-size: 2.5em;
+	border-bottom: none;
+	padding-left: 0;
+}
+
+
