@@ -12,14 +12,18 @@
 <!-- JavaScript plugins (requires jQuery) -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
-<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-<script
+
+<!-- Bootstrap Script -->
+
+<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script><script
 src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
-</script> 
+</script>
+<script src="validator.min.js"></script> 
+ 
+
 
  <!-- CSS -->
 <link rel="stylesheet" href="css/normal.css">
-<link rel="stylesheet" href="css/font-awesome.css">
 <link rel="stylesheet" type="text/css" href="css/custom.css">
  </head>
 
@@ -51,15 +55,62 @@ src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
 </nav><!-- End Navigation -->
 
 
-<section id="fullwidth1">
+<section id="fullwidth1"><!-- Contact Starts -->
 <div class="container">
  <div class="panel panelcolor pad">
   <div class="panel-heading">Contact Us</div>
 </div>
 </div>
+</section><!-- Contact Ends -->
+
+
+
+<section class="container top">
+  <div class="row"><!-- Row starts here -->
+ <div class="col-md-8"><!-- Form column starts here -->   
+<form role="form" data-toggle="validator">
+ <div class="form-group">
+ <label for="nameField">Name</label>
+ <input type="text" class="form-control" id="nameField" data-error="Name is required" required
+ placeholder="Enter Your Name" />
+ <div class="help-block with-errors"></div> 
+ </div>
+ <div class="form-group">
+ <label for="nameField">Company Name</label>
+ <input type="email" class="form-control" id="emailField" data-error="Name is required" required
+ placeholder="Enter Company Name" />
+ <div class="help-block with-errors"></div>
+ </div>
+ <div class="form-group">
+ <label for="emailField">Email Address</label>
+ <input type="text" class="form-control" id="emailField" data-error="Name is required" required
+ placeholder="Enter Email Address" />
+ </div>
+ <div class="form-group">
+ <label for="descField">Message</label>
+ <textarea class="form-control" id="descField"
+ placeholder="Enter Your Message"></textarea>
+ </div>
+<button type="submit" class="btn btn-primary">Submit</button>
+<button type="reset" class="btn btn-default">Reset</button>
+</form> 
+</div><!-- Form column ends here -->
+
+<div class="col-md-4 topimage"><!-- Image with text column starts here --> 
+  <div class="thumbnail"> 
+ <a href="#">
+ <img src="images/gamma1.png">
+ </a>
+ <div class="caption">
+ <a href="#"><h3>Caption Goes Here!</h3></a>
+ <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+ <p><a href="#" class="btn btn-default" role="button">Read More</a></p>
+ </div> 
+ </div>
+</div><!-- Image with text column ends here --> 
+
+</div><!-- Row ends here -->
 </section>
-
-
 
 
 
@@ -84,8 +135,6 @@ src="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
    </div>
   </div><!-- Ends footer container -->
 </footer>
-
-
 
 
 

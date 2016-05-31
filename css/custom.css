@@ -157,4 +157,11 @@ padding-top: 5px;
 	padding-left: 0;
 }
 
+/* Form and Image with Text */
+.container.top {
+	margin-top: 20px;
+}
 
+.col-md-4.topimage {
+	padding-top: 10px;
+}
