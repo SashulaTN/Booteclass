@@ -1,0 +1,284 @@
+
+/* Navigation */
+a.navbar-brand.logocolor {
+	color: #28a998;
+}
+
+
+/* Jumbothron */
+.jumbotron {
+	background: #FFFFFF url(../images/backimage.jpg) no-repeat top center;
+	height: 400px;
+}
+
+.container-fluid {
+	margin-top: -45px;
+}
+
+h1.my-jumbotron {
+	color: #ffffff;
+	position: relative;
+}
+
+h1.my-jumbotron span {
+	color: #1caa99;	
+}
+p.my-jumbotron {
+	color: #ffffff;
+	position: relative;
+}
+
+.col-md-6.alignbox {
+padding-left: 80px;
+}
+
+
+/* Jumbothron buttons */
+.btn.btn-default.removebackgr {
+	background-color: transparent;
+	width: auto;
+	height: auto;
+	padding: 0;
+}
+
+.btn.btn-default.removebackgr.space {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+
+/* Hide Jumbothron image (hand with phone) on small devices and tablets */
+
+@media only screen and (max-width: 768px) {
+.col-md-6.phone-hide {
+display: none;
+}
+} 
+
+
+@media only screen and (max-width: 970px) {
+.col-md-6.phone-hide {
+display: none;
+}
+} 
+
+
+
+
+
+/* Thumbnails */
+
+.container.photos {
+	margin-top: 10px;
+}
+
+
+/* Gamma Features */
+.container-fluid.green {
+	background: #28aa99;
+	margin-top: -5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+ul.featurestext {
+color: #ffffff;
+font-size: 1.2em;
+list-style-type: none;
+}
+
+h2.featurestext {
+color: #ffffff;
+font-size: 2em;
+padding-left: 40px;
+}
+
+
+
+/* Footer */
+
+footer.fullwidth {
+	max-width: 1700px;
+	background: #333333;
+}
+.container.black {
+	max-width: 1700px;
+	background: #333333;
+	padding: 15px;
+}
+
+#footerlist li {
+list-style: none;
+display: inline-block;
+padding-top: 20px;
+padding-right: 20px;
+}
+
+
+#footerlist li a {
+color: #ffffff;
+}
+
+ul#footerlist {
+padding-left: 0;
+}
+
+
+/* Images */
+
+@media (max-width: 400px) {
+img.phone {
+	width: 75%;
+}
+
+div.caption {
+text-align: center;
+}
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+
+img.phone {
+	width: 75%;
+}
+
+div.caption {
+text-align: center;
+}
+
+}
+
+
+
+
+/* Align footer text/image - Mobile */
+
+@media (max-width: 400px) {
+ p.aligntext {
+float: none;
+text-align: center;
+padding-top: 5px;
+color: #ffffff;
+}
+
+ul.aligntext {
+float: none;
+text-align: center;
+}
+
+ul.featurestext {
+text-align: center;
+padding-left: 0;
+}  
+
+h2.featurestext {
+text-align: center;
+padding-left: 0;
+}
+
+img#imagecenter {
+display: block;
+ margin: 0 auto;
+}
+
+}
+
+
+/* Align footer text/image - view on small devices and tablets */
+
+@media (min-width: 401px) and (max-width: 768px) {
+p.aligntext {
+float: none;
+text-align: center;
+padding-top: 5px;
+color: #ffffff;
+}
+
+ul.aligntext {
+float: none;
+text-align: center;
+}
+
+ul.featurestext {
+text-align: center;
+padding-left: 0;
+}  
+
+h2.featurestext {
+text-align: center;
+padding-left: 0;
+}
+
+img#imagecenter {
+display: block;
+ margin: 0 auto;
+}
+
+}
+
+
+/* Align footer text/image - large divices */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+p.aligntext {
+float: right;
+margin-top: 20px;
+color: #ffffff;
+}
+
+
+img#imagecenter {
+float: right;
+padding-right: 20px;
+padding-bottom: 20px;
+}
+
+h2.featurestext {
+text-align: left;
+padding-left: 0;
+}
+
+ul.featurestext {
+padding-left: 10px;
+float: left;
+
+}  
+
+col-sm-6 col-xs-12.aligntext{
+float: left;
+padding-left: 0;
+}
+}
+
+
+
+
+
+/* Contact Us */
+#fullwidth1 {
+	max-width: 1700px;
+	background: #1caa99;
+	margin-top: -22px;
+}
+
+.panel.panelcolor.pad {
+	background: #1caa99;
+	margin-bottom: 0;
+}
+
+.panel-heading {
+	color: #ffffff;
+	font-size: 2.5em;
+	border-bottom: none;
+	padding-left: 0;
+}
+
+/* Form and Image with Text */
+.container.top {
+	margin-top: 20px;
+}
+
+.col-md-4.topimage {
+	padding-top: 10px;
+}
