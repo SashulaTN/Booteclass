@@ -1,0 +1,134 @@
+<!DOCTYPE html >
+
+<head>
+<title>Bootstrap Custom Plugins</title>
+<link href='https://fonts.googleapis.com/css?family=Roboto:400,500,300|Lato' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-social.css">
+<link rel="stylesheet" href="css/custom1.css">
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+
+
+</head>
+
+
+
+<body>
+<div class="container">
+    <h2 class="imaggalltext">Bootstrap Image Gallery lightbox</h2>
+<div class="row">
+    <div id="links">
+
+    <div class="col-sm-6 col-md-3"><!-- Image1 -->
+    <a href="images/flower1.jpeg" class="thumbnail" title="Flower1" data-gallery>
+        <img src="images/flower1.jpeg" alt="Flower1">
+    </a>
+    
+    </div>
+
+    <div class="col-sm-6 col-md-3"><!-- Image2 -->
+    <a href="images/flower2.jpeg" class="thumbnail" title="Flower2" data-gallery>
+        <img src="images/flower2.jpeg" alt="Flower2">
+    </a>
+   </div>
+
+    <div class="col-sm-6 col-md-3"><!-- Image1 -->
+    <a href="images/flower1.jpeg" class="thumbnail" title="Flower3" data-gallery>
+        <img src="images/flower1.jpeg" alt="Flower3">
+    </a>
+    </div>
+
+    <div class="col-sm-6 col-md-3"><!-- Image2 -->
+    <a href="images/flower2.jpeg" class="thumbnail" title="Flower4" data-gallery>
+        <img src="images/flower2.jpeg" alt="Flower4">
+    </a>
+   </div>
+
+</div> 
+</div>
+
+<div><!-- Button -->
+
+ <h2 class="imaggalltext">Bootstrap Social Buttons</h2>
+ <a class="btn btn-block btn-social btn-twitter">
+  <span class="fa fa-twitter"></span>
+  Sign in with Twitter
+</a>
+
+<a class="btn btn-block btn-social btn-facebook">
+  <span class="fa fa-facebook"></span>
+  Sign in with Facebook
+</a>
+
+<a class="btn btn-block btn-social btn-pinterest">
+  <span class="fa fa-pinterest"></span>
+  Sign in with Facebook
+</a>
+
+<a class="btn btn-block btn-social btn-linkedin">
+  <span class="fa fa-linkedin"></span>
+  Sign in with Facebook
+</a>
+
+</div><!-- Button ends here -->
+
+
+
+
+
+</div><!-- Container ends here -->
+
+
+<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+ 
+</div>
+
+
+
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="js/bootstrap-image-gallery.min.js"></script>
+
+
+
+</body>
+</html>

@@ -282,3 +282,28 @@ padding-left: 0;
 .col-md-4.topimage {
 	padding-top: 10px;
 }
+
+
+/* Image-Gallery */
+body {
+  background-color: #c3d3be;
+}
+
+.thumbnail img {
+	width: 100%;
+	height: auto;
+}
+h2.imaggalltext {
+	font-family: Roboto;
+	font-size: 400;
+	color: ##61283e;
+	padding-top: 10px;
+	padding-bottom: 10px;	
+}
+
+.btn {
+	width: 260px;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+
+}
