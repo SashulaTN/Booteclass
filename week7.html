@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+ <html lang="en-us">
+ <head>
+   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta charset="UTF-8">
+   <title>Bootstrap class-Week6</title>
+     
+     
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+     
+   <!-- CSS Bootstrap Theam -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-mini.css">
+     
+
+    <!-- Font Font Awesome -->
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    
+     
+     
+<style>
+    .bordernew {
+    border: 1px #dddddd solid; 
+        border-radius: 3px;
+    } 
+    
+/* CSS used here will be applied after bootstrap.css */
+.carousel {
+    margin-top: 20px;
+}
+.item .thumb {
+	width: 25%;
+	cursor: pointer;
+	float: left;
+}
+.item .thumb img {
+	width: 100%;
+	margin: 2px;
+}
+.item img {
+	width: 100%;	
+}
+    
+ .top {
+  padding-top: 20px;
+ }    
+
+/* Ratings CSS */    
+ .ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #e95420;
+}   
+
+    #buttontop {
+    margin-top: 15px;    
+    }
+    
+    
+ 
+</style>
+ </head>
+
+   <body>
+
+<!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">E-Shopper</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Services</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+
+             <ul class="nav navbar-nav navbar-right">
+             <li><a class="btn btn-success btn-sm navbar-btn" style="margin-left:10px; margin-right:10px; padding-top: 5px; padding-bottom: 5px;" href="#">Sign in</a></li>
+				<li><a class="btn btn-danger btn-sm navbar-btn"  style="margin-left:10px; margin-right:10px; padding-top: 5px; padding-bottom: 5px;" href="#">Sign up</a></li>
+			</ul>
+
+            </div>
+            <!-- /.navbar-collapse -->
+
+        </div>
+        <!-- /.container -->
+    </nav>
+
+       
+<!-- Page Content -->
+    <div class="container"><!-- Container starts -->
+    <div class="row" style="margin-top: 80px;">
+    <div class="col-sm-3"><!-- Categories starts -->
+      <div class="list-group">
+                    <a href="#" class="list-group-item active">Apparel & Accessories</a>
+                    <a href="#" class="list-group-item">Baby Products</a>
+                    <a href="#" class="list-group-item">Beauty &  Health</a>
+                    <a href="#" class="list-group-item">Electronics</a>
+                    <a href="#" class="list-group-item">Furniture</a>
+                    <a href="#" class="list-group-item">Home & Garden</a>
+                    <a href="#" class="list-group-item">Luggage &  Bags</a>
+                    <a href="#" class="list-group-item">Shoes</a>
+                    <a href="#" class="list-group-item">Sport & Entertainment</a>
+          
+          
+                </div>  
+    </div><!-- Categories ends -->    
+        
+  
+  <div class="col-sm-9 bordernew">
+     
+    <div class="row">
+                        
+        
+      <div class="col-sm-6"><!-- Carousel starts -->
+          
+     <div id="carousel" class="carousel slide" data-ride="carousel">
+         
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/product1.jpg">
+                </div>
+                
+                <div class="item">
+                    <img src="images/product2.jpg">
+                </div>
+                
+                <div class="item">
+                     <img src="images/product3.jpg">
+                </div>
+                
+                <div class="item">
+                     <img src="images/product4.jpg">
+                </div>
+                
+                
+            </div>
+        </div> 
+          
+          
+    <div class="clearfix">
+        <div id="thumbcarousel" class="carousel slide" data-interval="false">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div data-target="#carousel" data-slide-to="0" class="thumb"><img src="images/product1.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="1" class="thumb"><img src="images/product2.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="2" class="thumb"><img src="images/product3.jpg"></div>
+                    <div data-target="#carousel" data-slide-to="3" class="thumb"><img src="images/product4.jpg"></div>
+                </div><!-- /item -->    
+                
+            </div><!-- /carousel-inner -->
+            
+           
+        </div> <!-- /thumbcarousel -->
+    </div><!-- /clearfix -->
+       
+      </div><!--Carousel ends -->
+        
+        
+        
+        
+        
+      <div class="col-sm-6"><!-- Product Discription-->
+        <h2><a href="www.yahoo.com">Products</a><span style="text-decoratione: none; float: right; font-size: 25px;">$24.99</span></h2>
+        <p>Product description goes here.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis.</p>
+        
+        
+  <form role="form"><!-- Number -->
+    <div class="form-group form-inline">
+      <label for="qty">Qty </label>
+      <select class="form-control" style="width: 200px;" id="qty">
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select>
+    </div>
+  </form><!-- Number ends -->
+   
+          
+          
+   <form role="form"><!-- Color -->
+    <div class="form-group form-inline">
+      <label for="qt">Color </label>
+      <select class="form-control" style="width: 200px;" id="qt">
+        <option>red</option>
+        <option>blue</option>
+        <option>yellow</option>
+        <option>white</option>
+      </select>
+        
+        
+        
+    </div>
+  </form><!-- Color ends --> 
+          
+          
+      <form role="form"><!-- Color -->
+    <div class="form-group form-inline">
+      <label for="qto">Size</label>
+      <select class="form-control" style="width: 80px;" id="qto">
+        <option>S</option>
+        <option>XS</option>
+        <option>M</option>
+        <option>L</option>
+      </select>
+      
+       <div id="buttontop">
+        <button type="submit" class="btn btn-large btn-primary" style="width: 200px;" >Add to Cart</button>
+        </div> 
+      
+    			  
+        
+        
+    </div>
+  </form><!-- Color ends -->   
+        
+          
+          
+      
+      </div>
+    </div>
+     
+      
+     <div class="clearfix">
+  <p class="top">Product description goes here.  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+ <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>      
+ </div>  
+      
+ <!-- Ratings -->     
+ <div class="ratings clearfix">
+ <p class="pull-right">3 reviews</p>
+ <p>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+  <span class="glyphicon glyphicon-star"></span>
+   <span class="glyphicon glyphicon-star-empty"></span>
+    4.0 stars
+    </p>
+    </div> <!-- Ratings ends -->    
+  
+      
+        
+     <!-- Review Product -->     
+  <div class=" well">
+
+                    <div class="text-right">
+                        <a class="btn btn-success">Leave a Review</a>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">10 days ago</span>
+                            <p>This product was great in terms of quality. I would definitely buy another!</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">12 days ago</span>
+                            <p>I've alredy ordered another one!</p>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            Anonymous
+                            <span class="pull-right">15 days ago</span>
+                            <p>I've seen some better than this, but not at this price. I definitely recommend this item.</p>
+                        </div>
+                    </div>
+
+                </div>    
+      <!-- Review ends -->    
+         
+           
+      
+      
+      
+      
+  </div>
+        
+     
+   
+        
+        
+    
+
+        
+    </div><!-- Row ends -->       
+     </div><!-- Container ends -->
+     
+  
+        
+
+
+
+
+
+
+<!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.mini.js"></script>
+
+
+   </body>
+   </html>
